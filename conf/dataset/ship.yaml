@@ -1,0 +1,4 @@
+type: blender
+name: ship
+data_dir: '/mnt/lustre/zjtang/data/nerf_synthetic/ship'
+factor: 2

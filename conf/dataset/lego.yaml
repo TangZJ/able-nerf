@@ -1,0 +1,4 @@
+type: blender
+name: lego
+data_dir: '/mnt/lustre/zjtang/data/nerf_synthetic/lego'
+factor: 2

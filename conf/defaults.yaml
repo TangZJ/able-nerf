@@ -1,0 +1,52 @@
+defaults:
+  - _self_
+  - dataset/lego
+  - model/able_nerf
+
+expt_settings:
+  seed: 4 
+  num_gpu: 8
+  exp_name: train
+  dataset: blender
+  test_name: lego
+
+train:
+  batch_size: 1024
+  batch_type: 'all_images'
+  num_workers: 5
+  randomized: False
+  white_bkgd: True
+
+
+val:
+  im_batch_size: 1
+  batch_size: 1024
+  batch_type: 'single_image'
+  num_workers: 5
+  check_interval: 7500
+  randomized: False
+  white_bkgd: True
+  limit_batch_size: 8
+  
+  
+ray_param:
+  num_samples: 96
+  fine_sampling_multiplier: 1.0
+  perturb: 1.0
+  noise_std: 0
+  L_bands: 16
+  disparity: False
+  shape: 'cone'
+  resampled_padding: 0.01
+
+optimizer:
+  lr_init: 5e-4  # The initial learning rate.
+  lr_final: 1e-4  # The final learning rate.
+  lr_delay_steps: 1250  # The number of "warmup" learning steps.
+  lr_delay_mult: 0.01  # How much the "warmup" should be.
+  max_steps: 250000
+  loss_coarse: 1.0
+  loss_fine: 1.0
+
+checkpoint:
+

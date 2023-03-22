@@ -1,0 +1,8 @@
+coarse_layers: 2
+fine_layers: 6
+ff_ratio: 3
+dropout: 0.0
+dim_in: 192
+version: ablenerf
+num_lp: 32
+lp_layers: 2
