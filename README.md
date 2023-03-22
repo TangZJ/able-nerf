@@ -30,6 +30,14 @@ Install conda environment with python=3.9
 
 Install dependencies under dependencies.yaml
 
+## Ouputs
+
+Ref-NeRF
+
+![refnerf_drums](samples/drums/color_000.png)
+
+ABLE-NeRF
+![ablenerf_drums](samples/drums/ablenerf.png)
 
 
 ## Usage
