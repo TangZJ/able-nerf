@@ -35,8 +35,7 @@ Install dependencies under dependencies.yaml
 Ref-NeRF | ABLE-NeRF
 
 
-![refnerf_drums](samples/drums/color_000.png)
-![ablenerf_drums](samples/drums/ablenerf.png)
+![refnerf_drums](samples/drums/color_000.png) ![ablenerf_drums](samples/drums/ablenerf.png)
 
 
 
