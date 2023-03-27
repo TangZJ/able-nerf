@@ -32,13 +32,17 @@ Install dependencies under dependencies.yaml
 
 ## Ouputs
 
-Ref-NeRF
+Ref-NeRF | ABLE-NeRF
+
 
 ![refnerf_drums](samples/drums/color_000.png)
-
-ABLE-NeRF
-
 ![ablenerf_drums](samples/drums/ablenerf.png)
+
+
+
+
+![refnerf_ship](samples/ship/refnerf.png)
+![ablenerf_ship](samples/ship/ablenerf.png)
 
 
 ## Usage
