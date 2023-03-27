@@ -30,7 +30,7 @@ Install conda environment with python=3.9
 
 Install dependencies under dependencies.yaml
 
-## Ouputs
+## Outputs
 
 Ref-NeRF | ABLE-NeRF
 
