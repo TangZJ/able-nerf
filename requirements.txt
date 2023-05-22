@@ -1,0 +1,10 @@
+absl-py
+opencv-python
+pytorch-lightning==1.9.0
+tensorboard
+einops
+hydra-core
+matplotlib
+torch
+torchvision
+torchaudio
